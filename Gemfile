@@ -29,6 +29,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+# Use bootstrap-sass to style front-end
+gem 'bootstrap-sass', '~> 3.3'
+# Use some icon
+gem 'font-awesome-rails', '~> 4.3'
+# Use simple_form
+gem 'simple_form', '~> 3.5.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
