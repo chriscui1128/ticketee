@@ -35,6 +35,9 @@ gem 'bootstrap-sass', '~> 3.3'
 gem 'font-awesome-rails', '~> 4.3'
 # Use simple_form
 gem 'simple_form', '~> 3.5.0'
+# Use devise for user authentication
+gem 'devise', '~> 4.0'
+gem 'bcrypt', '~> 3.1.11'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
