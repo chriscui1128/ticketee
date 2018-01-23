@@ -1,6 +1,10 @@
 require "rails_helper"
 
 RSpec.feature "Users can delete existing projects" do
+  before do
+    login_as(FactoryBot.create(:user, :admin))
+  end
+
   scenario "successfully delete" do
     FactoryBot.create(:project, name: "Sublime Text 3")
     visit "/"
