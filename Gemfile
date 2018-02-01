@@ -38,6 +38,8 @@ gem 'simple_form', '~> 3.5.0'
 # Use devise for user authentication
 gem 'devise', '~> 4.0'
 gem 'bcrypt', '~> 3.1.11'
+# Use pundit for application policy
+gem 'pundit', '~> 1.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
